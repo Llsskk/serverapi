@@ -1,0 +1,14 @@
+package com.example.app_serv
+
+data class AuthorList (
+    val results: List<Auth>
+)
+
+data class Auth(
+    val AuthorID: Int,
+    val FirstName: String,
+    val LastName: String,
+    val Title: String,
+    val Email: String,
+    val Phone: String,
+    val DateRegistration: String)
